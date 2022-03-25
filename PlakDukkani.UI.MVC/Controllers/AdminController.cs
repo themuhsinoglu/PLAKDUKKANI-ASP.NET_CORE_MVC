@@ -12,6 +12,7 @@ namespace PlakDukkani.UI.MVC.Controllers
 {
     public class AdminController : Controller
     {
+        //dependency injection
         IAlbumBLL albumBLL;
         IGenreBLL genreBLL;
         IArtistBLL artistBLL;
